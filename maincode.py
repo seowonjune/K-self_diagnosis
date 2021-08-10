@@ -111,16 +111,16 @@ def code(city, school_level, school, name, birth, password):
     time.sleep(3)
 
     #사용자 설정
-    # driver.find_element_by_xpath('//*[@id="container"]/div/section[2]/div[2]/ul/li[1]/a/span[1]').click()
+    driver.find_element_by_xpath('//*[@id="container"]/div/section[2]/div[2]/ul/li[1]/a/span[1]').click()
     #자가진단
-    # driver.find_element_by_id('survey_q1a1').click()
-    # driver.find_element_by_id('survey_q2a1').click()
-    # driver.find_element_by_id('survey_q3a1').click()
+    driver.find_element_by_id('survey_q1a1').click()
+    driver.find_element_by_id('survey_q2a1').click()
+    driver.find_element_by_id('survey_q3a1').click()
 
-    # driver.find_element_by_id('btnConfirm').click()        
+    driver.find_element_by_id('btnConfirm').click()        
 
-    # driver.find_element_by_xpath('//*[@id="topMenuWrap"]/ul/li[4]/button').click()
-    # driver.find_element_by_xpath('/html/body/app-root/div/div[1]/div/button').click()
+    driver.find_element_by_xpath('//*[@id="topMenuWrap"]/ul/li[4]/button').click()
+    driver.find_element_by_xpath('/html/body/app-root/div/div[1]/div/button').click()
     print(name +"complete")
     driver.close()
 
